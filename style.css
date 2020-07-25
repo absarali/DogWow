@@ -334,10 +334,10 @@
 }
 .input-with-icons {
   display: flex;
+  overflow: hidden;
   height: 4%;
   border-radius: 3rem;
-  overflow: hidden;
-  padding: 4% 5%;
+  padding: 3% 2%;
   background-color: #653f1c;
 }
 .input {
@@ -354,15 +354,13 @@
   color: white;
 }
 ::placeholder {
-    align-items: center;
     color: grey;
     opacity: 1;
   }
-.icon img {
-  height: 4vh;
-  width: auto;
+.iconn img{
+  padding: 0% 0% 9% 0%;
+  height: 100%;
 }
-
 :focus {
     outline: 0;
 }
