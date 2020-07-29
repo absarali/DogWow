@@ -455,25 +455,30 @@ body {
     width: 200px;
   }
   .circular-images1 > div {
+    font-size: 14px;
     height: 200px;
     width: 200px;
+    top: -5px;
+  left: 8px;
   }
   .circular-images2 {
     height: 200px;
     width: 200px;
   }
   .circular-images2 > div {
+    font-size: 14px;
     height: 200px;
     width: 200px;
+    top: -5px;
+  left: 8px;
   }
   .image1 {
-    padding-top: 15px;
     width: 75px;
     height: 120px;
   }
   .image2 {
-    padding-top: 15x;
-    width: 150px;
+    margin-top: 35px;
+    width: 130px;
     height: 75px;
   }
 .mobile-view-header-right{
