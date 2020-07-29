@@ -196,19 +196,17 @@ body {
 .pet-sale {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin: 80px 0px;
+  justify-content: center;
 }
 .pet-sale > :first-child {
   margin: 25px 15px;
-  min-width: 300px;
-  max-width: 600px;
+  width: 750px;
   height: auto;
 }
 .pet-sale > :last-child {
   margin: 25px 15px;
-  min-width: 200px;
-  max-width: 350px;
+  width: 400px;
   height: auto;
 }
 .circular-images-back {
@@ -220,7 +218,7 @@ body {
   border: 3px solid #653f1c;
   border-radius: 50%;
   position: relative;
-  margin: 20px;
+  margin: 20px 100px;
   height: 300px;
   width: 300px;
 }
@@ -244,7 +242,7 @@ body {
 }
 .circular-images2 {
   position: relative;
-  margin: 20px;
+  margin: 20px 100px;
   border: 3px solid #653f1c;
   border-radius: 50%;
   height: 300px;
@@ -270,12 +268,22 @@ body {
 .image1 {
   padding-top: 30px;
   width: 100px;
-  height: 150px;
+  height: 180px;
 }
 .image2 {
   margin-top: 50px;
   width: 200px;
   height: 100px;
+}
+.circular-images1 h1{
+  font-size: 25px;
+  margin: 0px;
+  padding-top: 20px;
+}
+.circular-images2 h1{
+  font-size: 25px;
+  margin: 0px;
+  padding-top: 20px;
 }
 #brands {
   margin-top: 100px;
@@ -451,35 +459,56 @@ body {
     display: none;
   }
   .circular-images1 {
+    margin: 40px 20px;
     height: 200px;
     width: 200px;
   }
   .circular-images1 > div {
-    font-size: 14px;
     height: 200px;
     width: 200px;
     top: -5px;
   left: 8px;
   }
   .circular-images2 {
+    margin: 40px 20px;
     height: 200px;
     width: 200px;
   }
   .circular-images2 > div {
-    font-size: 14px;
     height: 200px;
     width: 200px;
     top: -5px;
   left: 8px;
   }
   .image1 {
+    margin-top: -10px;
     width: 75px;
-    height: 120px;
+    height: 130px;
   }
   .image2 {
-    margin-top: 35px;
+    margin-top: 30px;
     width: 130px;
     height: 75px;
+  }
+  .circular-images1 h1{
+    font-size: 18px;
+    margin: 0px;
+    padding-top: 5px;
+  }
+  .circular-images2 h1{
+    font-size: 18px;
+    margin: 0px;
+    padding-top: 5px;
+  }
+  .pet-sale > :first-child {
+    margin: 15px 15px;
+    width: 75vw;
+    height: auto;
+  }
+  .pet-sale > :last-child {
+    margin: 15px 15px;
+    width: 40vw;
+    height: auto;
   }
 .mobile-view-header-right{
   display: flex;
